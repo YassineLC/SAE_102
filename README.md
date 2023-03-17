@@ -1,21 +1,8 @@
 # SAÉ S1.02 : Community detection
 
 
-Ce document correspond au sujet de la SAÉ S1.02 de l'année universitaire 2022/2023. Ce travail est à faire par binôme en autonomie. Il correspond à la suite de la SAÉ S01.01.
+Ce document correspond au sujet de la SAÉ S1.02 de l'année universitaire 2022/2023. Il correspond à la suite de la SAÉ S01.01.
 
-**La SAÉ devra être rendue avant le  13 janvier.**
-
-## Évaluation
-
-La SAÉ sera notée de la manière suivante : 
-- Évaluation du rendu : 8 points répartis de la manière suivante
-    - Correction automatique du code via des tests unitaires : 2 points
-    - Tests unitaires rendus : 2 points
-    - Qualité du code (clarté, efficacité, commentaires, docstring) : 2 points
-    - Comparaison expérimentale et théorique (fichier notebook) : 2 points
-- Contrôle du 13 janvier : 12 points 
-
-**Attention :** Pour le contrôle du 13 janvier, il faut connaître le sujet et le code (les structures de données utilisées et les diffférentes fonctions définies) dans les SAÉ S01.01 et S01.02.
 
 ## Sujet
 
@@ -140,9 +127,3 @@ Comparer théoriquement et expérimentalement les deux heuristiques de construct
 Définir la fonction `find_max_community` prenant en paramètre un réseau et appliquant l'heuristique de recherche de communauté maximale donnée par `find_community_from_person` pour toutes les personnes du réseau. La fonction doit retourner la plus grande communauté trouvée.
 
 L'appel de cette fonction avec le réseau donné en exemple doit retourner la communauté `["Alice", "Bob", "Dominique"]` (peu importe l'ordre). 
-
-## Développement et rendu
-
-La SAÉ devra être faite en binôme. Les fonctions doivent être implémentées dans un module appelé `community_detection.py` et les tests unitaires des fonctions dans le module `test_community_detection.py`. Les comparaisons théoriques et expérimentales demandées devront être données dans un notebook appelé `using_community_detection.ipynb`. Le répertoire du projet devra également contenir un fichier `etudiants.txt` contenant les codes INE de deux étudiants du projet (un par ligne).
-
-Un squelette de rendu de projet se trouve sur le dépôt gitlab de l'université.
